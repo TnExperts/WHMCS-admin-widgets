@@ -22,8 +22,8 @@ class HelloWorldWidget extends \WHMCS\Module\AbstractWidget
 
     public function generateOutput($data)
     {
-$username="abuse@hostingwalk.com";
-$password="7a2b9ccc-4b69-49de-8e85-7efe964b9924";
+$username="your@email.com";
+$password="yourpasword";
 $url="https://rblwatcher.com/api/v1/ip/blacklisted";
 
 $ch = curl_init();
